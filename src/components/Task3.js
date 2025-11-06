@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Task3 = () => {
-  const renderUrl = "https://eduserve-cloud-assignment.onrender.com"; // This will be your actual URL
+  const renderUrl = "https://eduserve-cloud-assignment.onrender.com";
   
   return (
     <div className="task-card">
@@ -16,8 +16,6 @@ const Task3 = () => {
         <div className="diagram-container">
           <h4>Deployment Pipeline</h4>
           <div className="diagram">
-            <div className="diagram-box">Local Development</div>
-            <div className="diagram-arrow">↓</div>
             <div className="diagram-box">GitHub Repository</div>
             <div className="diagram-arrow">↓</div>
             <div className="diagram-box">Render.com</div>
@@ -81,11 +79,36 @@ const Task3 = () => {
         </table>
       </div>
 
-      {/* Keep your existing AWS content */}
       <div className="task-section">
         <h3>3.4 AWS Virtual Machine Configuration (Theoretical)</h3>
         <p><strong>Selected Platform:</strong> Amazon Web Services (AWS)</p>
-        {/* Your existing AWS content here */}
+        <div className="diagram-container">
+          <h4>EC2 Instance Configuration</h4>
+          <table className="cost-table">
+            <tbody>
+              <tr>
+                <td><strong>Instance Type</strong></td>
+                <td>t3.medium</td>
+              </tr>
+              <tr>
+                <td><strong>Operating System</strong></td>
+                <td>Ubuntu Server 20.04 LTS</td>
+              </tr>
+              <tr>
+                <td><strong>vCPUs</strong></td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td><strong>RAM</strong></td>
+                <td>4 GB</td>
+              </tr>
+              <tr>
+                <td><strong>Storage</strong></td>
+                <td>30 GB GP2 SSD</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

@@ -72,41 +72,6 @@ const Task5 = () => {
           <li><strong>Green Computing:</strong> Reduced energy consumption and physical space requirements</li>
         </ul>
       </div>
-
-      <div className="task-section">
-        <h3>Implementation Timeline</h3>
-        <table className="cost-table">
-          <thead>
-            <tr>
-              <th>Phase</th>
-              <th>Duration</th>
-              <th>Key Activities</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Planning & Design</td>
-              <td>2 weeks</td>
-              <td>Requirements gathering, architecture design, cost estimation</td>
-            </tr>
-            <tr>
-              <td>Infrastructure Setup</td>
-              <td>3 weeks</td>
-              <td>Cloud account setup, network configuration, security implementation</td>
-            </tr>
-            <tr>
-              <td>Application Deployment</td>
-              <td>2 weeks</td>
-              <td>LMS deployment, database migration, testing environment setup</td>
-            </tr>
-            <tr>
-              <td>Optimization & Training</td>
-              <td>1 week</td>
-              <td>Performance tuning, team training, documentation</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
     </div>
   );
 };

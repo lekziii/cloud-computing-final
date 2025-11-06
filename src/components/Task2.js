@@ -22,7 +22,6 @@ const Task2 = () => {
         <div className="diagram-container">
           <h4>EduServe Virtualization Architecture</h4>
           <div className="diagram">
-            {/* Host Machine */}
             <div className="diagram-box" style={{background: '#2c3e50'}}>
               Host Machine (Physical Server)
               <br />
@@ -31,14 +30,12 @@ const Task2 = () => {
             
             <div className="diagram-arrow">↓</div>
             
-            {/* Hypervisor */}
             <div className="diagram-box" style={{background: '#34495e'}}>
               VMware ESXi Hypervisor
             </div>
             
             <div className="diagram-arrow">↓</div>
             
-            {/* Virtual Machines */}
             <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem'}}>
               <div className="diagram-box">
                 VM 1: LMS Server
