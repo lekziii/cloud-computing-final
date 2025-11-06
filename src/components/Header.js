@@ -5,6 +5,9 @@ const Header = () => {
     <header className="header">
       <h1>EduServe Solutions - Cloud Computing Assignment</h1>
       <p>Virtual Lab Environment Implementation Plan</p>
+      <div className="author-name">
+        By Lekzin Tshoki Wangmo
+      </div>
     </header>
   );
 };
